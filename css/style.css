@@ -252,7 +252,8 @@
     }
     .team-list{
         display: flex;
-        flex-wrap: wrap;
+        
+        
     }
     .team-item:not(:last-child){
         margin-right: 30px;
@@ -268,10 +269,20 @@
         display: flex;
         width: calc((100% - 30px * 5) / 6);
         margin-right: 30px;
+        justify-content: center;
+        align-items: center;
+        
+        padding: 20px 60px;
 
-        border: 1px solid rosybrown;
+        border: 1px solid #AFB1B8;
+        box-sizing: border-box;
+        border-radius: 4px;
+      
+
+        
         
     }
+
     .social-link-list{
         display: flex;
     }
@@ -399,6 +410,7 @@
         padding-top: 60px;
         padding-bottom: 60px;
         padding-left: 210px;
+        
     }
     .box-size-container{
         padding-top: 70px;
