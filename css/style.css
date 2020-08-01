@@ -170,35 +170,36 @@
         
     }
 
-    .button{
-        margin-right: 8px;
-        margin-top: 125px;
-        margin-bottom: 55px;
-    }
-
-    .btn:not(:last-child){
+    .btn{
         font-family: Roboto;
-        font-weight: 700;
+        font-style: normal;
+        font-weight: bold;
         font-size: 16px;
-        line-height: 1.9;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: var(--dark-color);
-        background-color: transparent;
-        background: var(--accent-color);
+        line-height: 1.6;
 
-        border: 1px solid var(--accent-color);
+        display: flex;
+        
+        color: var(--dark-color);
         background: #F5F4FA;
-        padding: 22px 6px;
+        padding: 6px 22px;
+
         border-radius: 4px;
-        margin-right: auto;
-        }
+        border: solid #F5F4FA;
+    }
+    
+    .button:not(:last-child){
+        margin-right: 8px;
+    }
 
     .btn:hover, .btn:focus
     {
         color: var(--white-colore);
+    }
+
+    .btn-current{
+        background: #2196F3;
+        border: #2196F3;
+        color: #FFFFFF;
     }
 
     .picture{
@@ -340,7 +341,15 @@
         padding-bottom: 16px;
         text-align: center;
     }
-   
+
+    .projects-container{
+        display: flex;
+        flex-wrap: wrap;
+
+        
+    background-color: rgb(135, 111, 223);
+    }
+
     .project-title{
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
@@ -350,7 +359,7 @@
         color:var(--dark-color);
 
         display: block;
-        margin: 20px 24px 4px 24px;
+       
     }
 
     .project-item{
@@ -360,21 +369,21 @@
         letter-spacing: 0.03em;
         color: var(--main-color);
         
-        margin: 0 24px 20px 24px;
-    }
-
-    .projects-container{
-        display: flex;
-        flex-wrap: wrap;
-    background-color: rgb(135, 111, 223);
+       
     }
 
     .element{
         width: 370px;
+
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
 
     .element:not(:nth-child(3n)) {
         margin-right: 30px;
+
     }
 
     
@@ -385,14 +394,8 @@
 
         display: flex;
         justify-content: space-between;
-
-        
     }
-    .projects-container{
-        display: flex;
-        flex-wrap: wrap;
-    background-color: rgb(135, 111, 223);
-    }
+   
     .address{
         font-family: 'Roboto', sans-serif;
         font-style: normal;
@@ -418,14 +421,15 @@
         margin-top: 10px;
         margin-bottom: 0;
     }
-    .margin-1{
-        margin-top: 10px;
-        margin-bottom: 0;
-    }
+    
     .site{
         display: flex;
         justify-content: center;
+
+        margin-bottom: 50px;
     }
+
+
     .box-container{
         padding-top: 60px;
         padding-bottom: 60px;
