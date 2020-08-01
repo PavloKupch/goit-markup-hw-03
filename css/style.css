@@ -287,7 +287,7 @@
     .team{
         display: flex;
         width: calc((100% - 30px * 5) / 6);
-        margin-right: 30px;
+        
         justify-content: center;
         align-items: center;
         
@@ -296,6 +296,10 @@
         border: 1px solid #AFB1B8;
         box-sizing: border-box;
         border-radius: 4px;
+    }
+
+    .team:not(:last-child){
+        margin-right: 30px;
     }
 
     .social-link-list{
