@@ -98,9 +98,15 @@
         line-height: 1.9;
 
         display: flex;
+        letter-spacing: 0.06em;
+
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border: none;
+
         margin: auto;
         color: var(--white-colore);
-        background: #2196F3;
         padding: 10px 32px;
     }
 
@@ -136,8 +142,7 @@
     .logo .black:hover, .logo .black:focus,
     .logo .white:hover, .logo .white :focus,
     .contact-item:hover, .contact-item:focus,
-    .post-link:hover, .post-link:focus,
-    .tel-link:hover, .tel-link:focus
+    .post-link:hover, .post-link:focus
     {
         color: var(--accent-color)
     }
@@ -155,7 +160,6 @@
         margin-top: 0;
         margin-bottom: 30px;
 
-        background: slateblue;
     }
     .advatage{
         display: flex;
@@ -223,8 +227,6 @@
     
         margin-top: 30px;
         margin-bottom: 10px;  
-        background: rosybrown;
-        
     }
 
     .description{
@@ -244,7 +246,6 @@
         color: var(--white-colore);
         margin-bottom: 0;
 
-        background: rgb(175, 16, 16);
     }
 
     .section-team{
