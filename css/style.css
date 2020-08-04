@@ -114,6 +114,9 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+
+        border-bottom: 1px solid #ECECEC;
+
     }
 
     .link, .post-link, .tel-link {
@@ -452,15 +455,4 @@
         padding-top: 70px;
         padding-right: 210px;
     }
-    
-
-    
-    
-    
-
-
-
-
-
-
     
