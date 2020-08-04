@@ -130,7 +130,7 @@
     }
    
     .post-link{
-        color: var(--dark-color);
+        color: var(--accent-color);
         text-decoration: none;
         margin-right: 50px;
     }
@@ -140,9 +140,7 @@
     }
     .link:hover, .link:focus,
     .logo .black:hover, .logo .black:focus,
-    .logo .white:hover, .logo .white :focus,
-    .contact-item:hover, .contact-item:focus,
-    .post-link:hover, .post-link:focus
+    .logo .white:hover, .logo .white :focus
     {
         color: var(--accent-color)
     }
@@ -194,11 +192,6 @@
     
     .button:not(:last-child){
         margin-right: 8px;
-    }
-
-    .btn:hover, .btn:focus
-    {
-        color: var(--white-colore);
     }
 
     .btn-current{
