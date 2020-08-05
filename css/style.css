@@ -28,7 +28,7 @@
         color: var(--main-color)
     }
 
-    .block{
+    img{
         display: block;
     }
    
@@ -133,17 +133,15 @@
     }
    
     .post-link{
-        color: var(--accent-color);
-        text-decoration: none;
         margin-right: 50px;
     }
-    .tel-link{
+    .tel-link, .post-link{
         color: var(--main-color);
-        text-decoration: none;
     }
     .link:hover, .link:focus,
     .logo .black:hover, .logo .black:focus,
-    .logo .white:hover, .logo .white :focus
+    .logo .white:hover, .logo .white :focus,
+    .post-link:hover, .post-link:focus
     {
         color: var(--accent-color)
     }
@@ -192,6 +190,13 @@
         border-radius: 4px;
         border: solid #F5F4FA;
     }
+
+    .btn:hover, btn:focus{
+        color: #FFFFFF;
+        background-color: var(--accent-color);
+        border: #2196F3;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
     
     .button:not(:last-child){
         margin-right: 8px;
@@ -199,8 +204,9 @@
 
     .btn-current{
         background: #2196F3;
-        border: #2196F3;
         color: #FFFFFF;
+        border: #2196F3;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     }
 
     .picture{
@@ -455,4 +461,3 @@
         padding-top: 70px;
         padding-right: 210px;
     }
-    
